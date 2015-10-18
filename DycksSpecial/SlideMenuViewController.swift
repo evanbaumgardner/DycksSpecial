@@ -8,5 +8,5 @@
 
 import UIKit
 
-class MenuViewController: UITableViewController {}
+class SlideMenuViewController: UITableViewController {}
 

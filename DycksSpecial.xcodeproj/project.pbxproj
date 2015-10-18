@@ -12,6 +12,10 @@
 		3521E6051BD2BB91006D39BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3521E6031BD2BB91006D39BD /* Main.storyboard */; };
 		3521E6071BD2BB91006D39BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3521E6061BD2BB91006D39BD /* Assets.xcassets */; };
 		3521E60A1BD2BB91006D39BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3521E6081BD2BB91006D39BD /* LaunchScreen.storyboard */; };
+		3521E6121BD2BC35006D39BD /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3521E6111BD2BC35006D39BD /* ContainerViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		3521E6141BD2BD6E006D39BD /* SlideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3521E6131BD2BD6E006D39BD /* SlideMenuViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		3521E6161BD2C062006D39BD /* DyckMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3521E6151BD2C062006D39BD /* DyckMapViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		3521E6181BD2C169006D39BD /* DicksDriveIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3521E6171BD2C169006D39BD /* DicksDriveIn.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		3521E6061BD2BB91006D39BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3521E6091BD2BB91006D39BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3521E60B1BD2BB91006D39BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3521E6111BD2BC35006D39BD /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		3521E6131BD2BD6E006D39BD /* SlideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuViewController.swift; sourceTree = "<group>"; };
+		3521E6151BD2C062006D39BD /* DyckMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DyckMapViewController.swift; sourceTree = "<group>"; };
+		3521E6171BD2C169006D39BD /* DicksDriveIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DicksDriveIn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				3521E6061BD2BB91006D39BD /* Assets.xcassets */,
 				3521E6081BD2BB91006D39BD /* LaunchScreen.storyboard */,
 				3521E60B1BD2BB91006D39BD /* Info.plist */,
+				3521E6111BD2BC35006D39BD /* ContainerViewController.swift */,
+				3521E6131BD2BD6E006D39BD /* SlideMenuViewController.swift */,
+				3521E6151BD2C062006D39BD /* DyckMapViewController.swift */,
+				3521E6171BD2C169006D39BD /* DicksDriveIn.swift */,
 			);
 			path = DycksSpecial;
 			sourceTree = "<group>";
@@ -134,7 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3521E6161BD2C062006D39BD /* DyckMapViewController.swift in Sources */,
 				3521E6021BD2BB91006D39BD /* ViewController.swift in Sources */,
+				3521E6121BD2BC35006D39BD /* ContainerViewController.swift in Sources */,
+				3521E6141BD2BD6E006D39BD /* SlideMenuViewController.swift in Sources */,
+				3521E6181BD2C169006D39BD /* DicksDriveIn.swift in Sources */,
 				3521E6001BD2BB91006D39BD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,6 +266,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.evanbaumgardner.DycksSpecial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -261,6 +278,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.evanbaumgardner.DycksSpecial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
